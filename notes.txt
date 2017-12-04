@@ -1,0 +1,8 @@
+replaced:
+
+Invoke-Mimikatz - Obf-Cats
+DumpCreds - pwds
+ArgumentPtr - argptr
+CallDllMainSC1 - calldatdll
+DumpCerts - dumpdemcerts
+
